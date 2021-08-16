@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" lang="en-gb">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="..\css\stylesheet.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=STIX+Two+Text:ital,wght@1,500&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/149db5382a.js" crossorigin="anonymous"></script>
+	<title>R O O T S</title>
+</head>
+<body>
+	<header>
+		<div id="head-wrap">
+		<div id="nav-bar"><ul>
+			<li><a href="#logo">Home</a></li>
+			<li><a href="#price-section">Services</a></li>
+			<li><a href="#gal-title">Gallery</a></li>
+			<li><a href="#contact-us">Contact</a></li>
+		</ul></div>
+		<div id="logo">
+			<p>Roots</p>
+		</div>
+	</div>
+	</header>
+
+	<main>
+		<!--Image banner -->
+			<div id="vid-ban">
+				<video src="..\video\banner2.mp4" id="videobg" autoplay muted loop></video>
+				<h1>Professional<br> Hair &#38; Beauty</h1>
+			</div>
+
+		<section id=price-section> <!--Services Information-->
+			<div class="con-header">
+				<h2>Services &#38; Price Card</h2>
+			</div>
+			<div id="srvc-contain"> 
+				<div class="srvcs-info">
+					<img src="..\img\model1.jpg" alt="Mized race female with an afro" class="srvcs-img">
+				</div>
+				<div class="price-lst">
+					<table id="price-tbl">
+						<tr>
+							<th>Hair</th>
+							<th>Price</th>
+						</tr>
+						<tbody>
+							<tr>
+								<td>Wash And Blow Dry</td>
+								<td>&#163;22.00</td>
+							</tr>
+							<tr>
+								<td>Wash Cust And Blow Dry</td>
+								<td>&#163;39.95</td>
+							</tr>
+							<tr>
+								<td>Highlight / Lowlights</td>
+								<td>&#163;93.00</td>
+							</tr>
+							<tr>
+								<td>Full Head Color</td>
+								<td>&#163;107.95</td>
+							</tr>
+							<tr>
+								<td>Perms</td>
+								<td>&#163;79.95</td>
+							</tr>
+							<tr>
+								<td>Re-Style</td>
+								<td>&#163;25.00</td>
+							</tr>						
+								<br>
+						</tbody>
+						<tr>
+							<th>Beauty</th>
+							<th>Price</th>
+						</tr>
+						<tbody>
+							<tr>
+								<td>Manicure &#38; Polish</td>
+								<td>&#163;23.00</td>
+							</tr>
+							<tr>
+								<td>Pedicure &#38; Polish</td>
+								<td>&#163;26.95</td>
+							</tr>
+							<tr>
+								<td>Luxury Facial</td>
+								<td>&#163;33.00</td>
+							</tr>
+							<tr>
+								<td>Eyebrow Wax &#38; Shape</td>
+								<td>&#163;11.95</td>
+							</tr>
+							<tr>
+								<td>Make Up &#38; Beatuy Session</td>
+								<td>&#163;29.95</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+
+		<section> <!-- Portfolio Work -->
+				<div class="con-header">
+					<h2 id="gal-title">Our Work</h2>
+				</div>
+			<div id="gal-contain">
+				<div class="gal-img"><img src="..\img\gal-1.jpg" alt=""></div>
+				<div class="gal-img"><img src="..\img\gal-2.jpg" alt=""></div>
+				<div class="gal-img"><img src="..\img\gal-3.jpg" alt=""></div>
+				<div class="gal-img"><img src="..\img\gal-4.jpg" alt=""></div>
+				<div class="gal-img"><img src="..\img\gal-5.jpg" alt=""></div>
+				<div class="gal-img"><img src="..\img\gal-6.jpg" alt=""></div>
+				<div class="gal-img"><img src="..\img\gal-7.jpg" alt=""></div>
+				<div class="gal-img"><img src="..\img\gal-8.jpg" alt=""></div>
+			</div>
+		</section>
+
+		<section><!-- Contact Page-->
+				<div class="con-header">
+					<h2 id="contact-us">Contact Us</h2>
+				</div>
+			<div id="con-contain">
+				<div class="con-info1">
+					<iframe width="80%" height="80%" id="gmap_canvas" src="https://maps.google.com/maps?q=west%20london&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</div>
+				<div class="con-info2"> <!-- Contact Form -->
+					<p>Get In Touch!<br>Fill in the form below and we'll get back to you as soon as we can.<br>Or call us on <a href="02055685412" type="tel"><strong>020 5568 5412</strong></a></p>
+					<form action="" id="contact-form">
+						<legend>
+							<p><strong>Name </strong>*</p>
+							<input type="name" class="cust-details" required>
+							<p><strong>Email </strong> *</p>
+							<input type="email" class="cust-details" required>
+							<p><strong>Tel</strong> *</p>
+							<input type="tel" class="cust-details" required>
+						</legend>
+						<p><strong>Are You Enquiring About Booking An Appointment?</strong></p>
+						<input type="checkbox" class="c-box"> Yes
+						<input type="checkbox" class="c-box"> No
+						<br>
+						<textarea name="comments" id="comments" cols="70" rows="10" placeholder="Please Enter Your Message"></textarea>
+						<p><strong>Would You Rather We Contact You By Phone or Email?</strong></p>
+						<input type="checkbox" class="c-box"> Phone
+						<input type="checkbox" class="c-box"> Email
+						<br>
+						<input type="submit" name="send" value="Send" id="submit">
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div id="fot-con">
+			<div class="fot-info">
+				<div id="fot-social">
+					<a href="#"><i class="fab fa-facebook-square"></i>Facebook</a><br>
+					<a href="#"><i class="fab fa-instagram-square"></i>Instagram</a><br>
+					<a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+				</div>
+				<div id="add-info">
+					<p><strong>125 Orange St.</strong></p>
+					<p>Soho</p>
+					<p>London</p>
+					<p>S02 ELP</p>
+				</div>
+				<div id="copywrite">
+					<p>Website Created &#38; Designed bt J T Foster</p>
+					<p>&#169;Copywrite Protected 2021</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
